@@ -1,0 +1,101 @@
+/* .navContainer{
+    display:flex;
+    flex-direction:row;
+} */
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navContainer{
+    /* border:2px solid blue; */
+    background-color: rgb(19, 130, 233);
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.right{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    display: inline-block;
+    /* border: 2px solid yellowgreen; */
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 0px 5px;
+    margin:0 5px 0 5px;
+    cursor: pointer;
+}
+
+.login{
+    text-align: center;
+}
+
+.login_form{
+background:lightgray;
+/* border: 1px solid red; */
+width:350px;
+height: 425px;
+color:black;
+margin-top: 120px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.login_form h1{
+    padding-top: 25px;
+}
+
+.login_form input{
+    height: 35px;
+    /* margin-left: -1px; */
+    width: 280px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login_form span{
+    margin-left: -169px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login_form .forgot{
+    margin-left: -160px;
+    margin-top: 6px;
+    cursor: pointer;
+    font-style: none;
+}
+
+.login_form button{
+    margin-top: 25px;
+    height: 40px;
+    width: 280px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(19, 130, 233);
+    color:white;
+    border:none;
+    cursor: pointer;
+}
